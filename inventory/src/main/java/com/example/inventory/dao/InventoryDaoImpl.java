@@ -1,4 +1,4 @@
-package com.example.vedantu.dao;
+package com.example.inventory.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
-import com.example.vedantu.model.Inventory;
+import com.example.inventory.model.Inventory;
 
 public class InventoryDaoImpl implements InventoryDao {
 	

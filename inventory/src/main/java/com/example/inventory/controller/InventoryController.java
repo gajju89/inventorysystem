@@ -1,4 +1,4 @@
-package com.example.vedantu.controller;
+package com.example.inventory.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.vedantu.model.Inventory;
-import com.example.vedantu.service.InventoryService;
+import com.example.inventory.model.Inventory;
+import com.example.inventory.service.InventoryService;
 
 
 @RestController

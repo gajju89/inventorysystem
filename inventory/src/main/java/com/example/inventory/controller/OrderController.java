@@ -1,4 +1,4 @@
-package com.example.vedantu.controller;
+package com.example.inventory.controller;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.vedantu.model.Order;
-import com.example.vedantu.service.OrderService;
+import com.example.inventory.model.Order;
+import com.example.inventory.service.OrderService;
 
 
 @RestController

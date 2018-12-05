@@ -1,4 +1,4 @@
-package com.example.vedantu.controller;
+package com.example.inventory.controller;
 
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.vedantu.model.Account;
+import com.example.inventory.model.Account;
 
 @RestController
 @RequestMapping("/user")

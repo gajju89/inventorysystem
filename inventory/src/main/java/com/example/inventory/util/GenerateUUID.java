@@ -1,4 +1,4 @@
-package com.example.vedantu.util;
+package com.example.inventory.util;
 
 import java.util.UUID;
 

@@ -1,8 +1,8 @@
-package com.example.vedantu.dao;
+package com.example.inventory.dao;
 
 import java.util.List;
 
-import com.example.vedantu.model.Inventory;
+import com.example.inventory.model.Inventory;
 
 public interface InventoryDao {
 

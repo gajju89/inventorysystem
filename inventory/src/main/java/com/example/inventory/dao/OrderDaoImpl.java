@@ -1,10 +1,10 @@
-package com.example.vedantu.dao;
+package com.example.inventory.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.example.vedantu.model.Order;
+import com.example.inventory.model.Order;
 @Repository
 public class OrderDaoImpl implements OrderDao {
 	

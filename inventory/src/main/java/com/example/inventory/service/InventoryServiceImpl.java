@@ -1,4 +1,4 @@
-package com.example.vedantu.service;
+package com.example.inventory.service;
 
 
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.vedantu.dao.InventoryDao;
-import com.example.vedantu.model.Inventory;
+import com.example.inventory.dao.InventoryDao;
+import com.example.inventory.model.Inventory;
 
 @Service
 public class InventoryServiceImpl implements InventoryService {

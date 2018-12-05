@@ -1,8 +1,8 @@
-package com.example.vedantu.service;
+package com.example.inventory.service;
 
 import java.util.List;
 
-import com.example.vedantu.model.Inventory;
+import com.example.inventory.model.Inventory;
 
 public interface InventoryService {
 	

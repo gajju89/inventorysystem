@@ -1,13 +1,13 @@
-package com.example.vedantu.service;
+package com.example.inventory.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.vedantu.dao.OrderDao;
-import com.example.vedantu.model.Order;
-import com.example.vedantu.util.GenerateUUID;
+import com.example.inventory.dao.OrderDao;
+import com.example.inventory.model.Order;
+import com.example.inventory.util.GenerateUUID;
 
 @Service
 public class OrderServiceImpl implements OrderService {

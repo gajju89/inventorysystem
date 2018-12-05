@@ -1,4 +1,4 @@
-package com.example.vedantu.model;
+package com.example.inventory.model;
 
 import java.util.List;
 

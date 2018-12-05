@@ -1,6 +1,6 @@
-package com.example.vedantu.dao;
+package com.example.inventory.dao;
 
-import com.example.vedantu.model.Order;
+import com.example.inventory.model.Order;
 
 public interface OrderDao {
 	

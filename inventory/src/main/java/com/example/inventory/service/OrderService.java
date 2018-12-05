@@ -1,6 +1,6 @@
-package com.example.vedantu.service;
+package com.example.inventory.service;
 
-import com.example.vedantu.model.Order;
+import com.example.inventory.model.Order;
 
 
 public interface OrderService {
